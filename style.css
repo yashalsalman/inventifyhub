@@ -1,0 +1,117 @@
+*{
+    padding: 10px;
+    margin: 0px;
+}
+body {
+    background: linear-gradient(to right, rgb(37, 91, 153), #9d8dc9, #6592c7);
+    
+  }
+header{
+    text-align: center;
+        font-style: normal;
+    font-size: larger;
+    color: azure;
+    background-color: rgb(50, 110, 150);
+}
+.container{
+    width:300;
+    height:100vh;
+    overflow: hidden;
+    background-color:rgba(0, 0,0, 0.4);
+    display:flex;
+    align-items:start;
+    justify-content:space-around;
+}
+
+.container nav{
+    padding: 10px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+section {
+    margin: 50px;
+    
+    
+}
+
+footer {
+    background-color: #142a47;
+    color: #fff;
+    text-align:center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+}
+nav {
+    background-color:#000; 
+    color: #fff; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav a:hover{
+color:dimgrey;
+
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
